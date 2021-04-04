@@ -1,0 +1,108 @@
+body {
+    background:url("../images/bookcup.png");
+
+}
+/*.header{
+    background:url("../images/book_leaves_cup_130317_1920x1080.jpg");
+    position: relative;
+}*/
+/*
+** It was an overlay for the header
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    color:#fff;
+}
+*/
+
+.header .regster {
+    /*position: relative;*/
+    margin: auto auto ;
+    max-width :450px;
+    /*z-index: 2;*/
+}
+.header .regster h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    color:#fff;
+}
+
+.header .regster .form{
+    padding:10px 0 ;
+    /* makw the background of the form Transparent (شفافه ) */
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.header .regster .form h2 {
+    margin : 20px auto 0 ;
+    color:#d7b613;
+    text-transform: capitalize;
+}
+
+.header .regster .form .frm {
+    padding :10px;
+}
+.header .regster .form .frm input,
+.header .regster .form .frm select{
+    width:80%;
+    margin:10px;
+    padding: 6px;
+    background-color: #333532;
+    opacity: 0.7;
+    border:transparent;
+    color:#fff;
+}
+.header .regster .form .frm .phone-number{
+    width:81%;
+}
+.header .regster .form .frm .submit{
+    width:84%;
+    background-color: #d7b613;
+}
+.header .regster .form .frm .submit:hover{
+    cursor: pointer;
+    background-color: #372e01;
+}
+/* double input in the line */
+.header .regster .form .frm .half{
+    width:37%;
+}
+.header .regster .form .frm .half-special{
+    width:39%;
+}
+/* change placeholder color */
+
+::placeholder {
+    color: #fff;
+    opacity: 0.8; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+
+.header .regster p{
+    color:#fff;
+    margin: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 13px;
+    text-align: center;
+}
+.footer p span{
+    color: aqua;
+    text-transform: uppercase;
+}
