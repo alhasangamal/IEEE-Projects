@@ -1,0 +1,111 @@
+body {
+    background:url("../imgs/5271321-2033291841.jpg");
+
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.header .regster {
+    /*position: relative;*/
+    margin: auto auto ;
+    max-width :450px;
+    /*z-index: 2;*/
+}
+.header .regster h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    color:#fff;
+}
+
+.header .regster .form{
+    padding:10px 0 ;
+    /* makw the background of the form Transparent (شفافه ) */
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.header .regster .form h2 {
+    margin : 20px auto 0 ;
+    color:#d7b613;
+    text-transform: capitalize;
+}
+
+.header .regster .form .frm {
+    padding :10px;
+}
+.header .regster .form .frm input,
+.header .regster .form .frm select{
+    width:80%;
+    margin:10px;
+    padding: 6px;
+    background-color: #333532;
+    opacity: 0.7;
+    border:transparent;
+    color:#fff;
+}
+.header .regster .form .frm .phone-number{
+    width:81%;
+}
+.header .regster .form .frm .submit{
+    width:84%;
+    background-color: #d7b613;
+}
+.header .regster .form .frm .submit:hover{
+    cursor: pointer;
+    background-color: #372e01;
+}
+/* double input in the line */
+
+
+/* change placeholder color */
+
+::placeholder {
+    color: #fff;
+    opacity: 0.8; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+}
+
+.header .regster p{
+    color:#fff;
+    margin: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 13px;
+    text-align: center;
+}
+.header .regster p span{
+    color:#438c91;
+    text-transform: lowercase;
+}
